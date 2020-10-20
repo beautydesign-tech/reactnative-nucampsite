@@ -264,4 +264,4 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
 });
-export default connect(null, mapStateToProps)(Main);
+export default connect(null, mapDispatchToProps)(Main);
